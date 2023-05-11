@@ -23,7 +23,7 @@ df = pd.DataFrame(data=dataset)
 
 
 # Output the dataframe to a csv for backup.
-df.to_csv()
+df.to_csv('icecream.csv', index=False)
 
 
 # Always good to make sure your data look correct
